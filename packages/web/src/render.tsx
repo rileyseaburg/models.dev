@@ -492,11 +492,11 @@ export const Rendered = renderToString(
           available AI models. We started Models.dev as a community-contributed
           project to address this. We also use it internally in{" "}
           <a
-            href="https://opencode.ai"
+            href="https://codetether.ai"
             target="_blank"
             rel="noopener noreferrer"
           >
-            opencode
+            codetether
           </a>
           .
         </p>

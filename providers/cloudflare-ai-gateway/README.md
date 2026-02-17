@@ -238,7 +238,7 @@ The TOML generation script automatically:
 
 ## Provider Configuration
 
-The `provider.toml` file defines how OpenCode connects to Cloudflare AI Gateway:
+The `provider.toml` file defines how CodeTether connects to Cloudflare AI Gateway:
 
 ```toml
 name = "Cloudflare AI Gateway"

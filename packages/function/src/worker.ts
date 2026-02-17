@@ -13,7 +13,7 @@ export default {
     const ip = request.headers.get("cf-connecting-ip") || "unknown";
     const country = request.headers.get("cf-ipcountry") || "unknown";
     const agent = request.headers.get("user-agent") || "unknown";
-    if (agent.includes("opencode") || agent.includes("bun")) {
+    if (agent.includes("codetether") || agent.includes("bun")) {
       ctx.waitUntil(
         fetch("https://us.i.posthog.com/i/v0/e/", {
           method: "POST",
